@@ -1,0 +1,23 @@
+<div class="header">
+    <div class="user_info">
+      <h1 class="welcome_username" style="margin-top: 10px">
+        <b>Welcome <%=username%></b>
+      </h1>
+      <div class="header_data">
+        <% if(isloggedin===true) { %>
+        <img class="user_img" src="User.jpg" />
+        <% } %> <% if(isloggedin===true) { %>
+        <div class="btn_div">
+          <a class="a_logout" href="/logout">logout</a>
+          <a class="a_home" href="/user">Product</a>
+          <a class="a_logout" href="/cart">Cart</a>
+        </div>
+        <% } else { %>
+        <div class="btn_div">
+          <a class="a_logout" href="/login">Cart</a>
+          <a class="a_home" href="/">Home</a>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </div>

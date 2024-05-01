@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="/style.css" />
+    
+  </head>
+  <body>
+    <div class="home_product">
+      <a class="login_singup_home" href="/">Home</a>
+      <a class="login_singup_product" href="/product">Product</a>
+    </div>
+    <div class="signup_div">
+      <form
+        class="form"
+        action="/signup"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <h1 class="heading">SignUp</h1>
+        <input
+          autocomplete="off"
+          required
+          placeholder="Enter Username..."
+          class="Username"
+          type="text"
+          name="Username"
+        />
+        <input
+          required
+          placeholder="Enter Password..."
+          class="password"
+          type="password"
+          name="password"
+        />
+        <input
+          class="signup_btn"
+          style="cursor: pointer"
+          type="submit"
+          value="signup"
+        />
+      </form>
+      <a class="a_signup" href="/login">Already have an account</a>
+      <h4><%= error %></h4>
+    </div>
+  </body>
+</html>

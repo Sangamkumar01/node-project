@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 5px;
+  }
+  body {
+    background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+    display: flex;flex-direction: column;
+  }
+  .maindiv {
+    display: flex;
+    justify-content: center;
+  }
+  .btn1 {
+    background-color: aquamarine;
+    color: black;
+    width: 10vw;
+    height: 10vh;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .btn2 {
+    width: 10vw;
+    height: 10vh;
+    background-color: aquamarine;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .what {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    padding: 20px;
+    font-size: 2rem;
+  }
+  .a1,
+  .a2 {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+  }
+  .login_div,
+  .signup_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .login_div{
+    margin-top: 8%;
+  }
+  .signup_div {
+    margin-top: 5%;
+  }
+  .form {
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 50px;
+    display: flex;
+    width: 20vw;
+    gap: 20px;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 5px black;
+    background-image: linear-gradient(
+      to right,
+      rgb(199, 228, 211),
+      rgb(243, 191, 191)
+    );
+  }
+  .a_login,
+  .a_signup {
+    margin-top: 10px;
+  }
+  .login_btn,
+  .signup_btn {
+    background-color: rgb(75, 143, 8);
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    width: 10vw;
+    height: 5vh;
+    align-self: center;
+  }
+  .Username,
+  .email_id,
+  .password {
+    width: 20vw;
+    height: 5vh;
+  }
+  /* .welcome_username{
+    font-size: 10px;
+  } */
+  .logout_btn {
+    width: 7vw;
+    background-color: aquamarine;
+  }
+  .header {
+    border-bottom-style: groove;
+    border-color: black;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+  }
+  .header_data {
+    display: flex;
+    gap: 10px;
+    float: right;
+    flex-direction: row-reverse;
+  }
+  .user_img {
+    width: 60px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+  }
+  .user_info {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+  }
+  .forgotpassword {
+    margin: 5px;
+  }
+  .heading {
+    text-align: center;
+  }
+  .product_div {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+  }
+  .product_container {
+    display: table-cell;
+  }
+  .product_box {
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .product_image {
+    height: 30vh;
+    width: 20vw;
+  }
+  .inside_div {
+    background-color: white;
+    border: 2px dotted black;
+    border-radius: 10px;
+  }
+  .backtomain {
+    font-size: 15px;
+    background-color: cornflowerblue;
+  }
+  .a_gotocart,
+  .a_add_toCart {
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+  }
+  .a_gotocart:hover,
+  .a_add_toCart:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .a_home,
+  .a_logout {
+    /* font-size: 1vw; */
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+  .a_home:hover,
+  .a_logout:hover {
+    text-decoration: none;
+    color: white;
+  }
+  .add_toCart_button {
+    background-color: chocolate;
+    width: 8vw;
+    font-size: 1vw;
+  }
+  .home_btn {
+    width: 7vw;
+  }
+  .a_remove_Cart {
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+  }
+  .a_remove_Cart:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .checkou_btnt {
+    align-self: flex-end;
+    width: 10vw;
+  }
+  .a-checkout {
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+  }
+  .a-checkout:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+  }
+  .checkout_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* .checkout_box {
+    background-image: linear-gradient(
+      to right,
+      rgb(199, 228, 211),
+      rgb(243, 191, 191)
+    );
+  } */
+  .inside_checkout {
+    padding: 40px;
+    text-align: center;
+    background-image: linear-gradient(
+      to right,
+      rgb(199, 228, 211),
+      rgb(243, 191, 191)
+    );
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px black;
+  }
+  .a_product_Page {
+    color: black;
+    text-decoration: underline;
+    font-size: 1.5vw;
+    font-weight: 900;
+    align-self: flex-end;
+  }
+  .a_product_Page:hover {
+    color: white;
+  }
+  .notloogedin {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  .notloogedin:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .madeby{
+    align-self: center;
+  }
+  .suhit {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .a_cart,
+  .a_buy {
+    text-decoration: none;
+     color: white;
+      font-size: 1vw"
+  }
+  .product_image_cart {
+    width: 20vw;
+    height: 20vh;
+  }
+  #grad1_cart {
+    margin-top: 80px;
+  }
+  .home_product{
+    display: flex;
+    float: right;
+    align-self: flex-end;
+  }
+  .login_singup_home,.login_singup_product{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .login_singup_home:hover,.login_singup_product:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  /* making responsive */
+  
+  @media screen and (max-width: 500px) {
+    .what {
+      font-size: 1rem;
+    }
+    .btn1 {
+      width: 20vw;
+      height: 6vh;
+    }
+    .btn2 {
+      width: 20vw;
+      height: 6vh;
+    }
+    .a1 {
+      text-align: center;
+      font-size: 15px;
+      position: relative;
+      top: -2px;
+    }
+    .a2 {
+      text-align: center;
+      font-size: 15px;
+      position: relative;
+      top: -2px;
+    }
+    .a_product_Page {
+      font-size: 10px;
+    }
+    .login_div {
+      padding: 0px;
+    }
+    .form {
+      
+      text-align: center;
+      padding: 60px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    .Username {
+      width: 40vw;
+      position: relative;
+      left: -50px;
+    }
+    .password {
+      width: 40vw;
+      position: relative;
+      left: -50px;
+    }
+    .login_btn,
+    .signup_btn {
+      width: 20vw;
+      font-size: 20px;
+    }
+    .email_id {
+      width: 40vw;
+      position: relative;
+      left: -50px;
+    }
+    .a_logout,
+    .a_home {
+      font-size: 15px;
+      font-weight: bolder;
+    }
+    .btn_div {
+      position: relative;
+      top: -20px;
+      display: flex;
+      flex-direction: column;
+    }
+    .product_image {
+      width: 60vw;
+    }
+    .add_toCart_button {
+      width: 30vw;
+    }
+    .a_add_toCart {
+      font-size: 15px;
+    }
+    /* .madeby {
+      display: flex;
+      justify-content: center;
+    } */
+    .suhit{
+      /* position: absolute;
+      bottom: 0; */
+      text-align: center;
+    }
+    .a-checkout {
+      font-size: 15px;
+    }
+    .a-checkout:hover{
+      font-size: 15px;
+    }
+    .product_image_cart {
+      width: 60vw;
+      height: 40vh;
+    }
+    .a_remove_Cart {
+      font-size: 15px;
+    }
+    #grad1_cart {
+      margin-top: 80px;
+    }
+    .heading {
+      font-size: 20px;
+    }
+    .p_heading {
+      display: flex;
+      flex-direction: column;
+    }
+    .forgot_fomr {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    .heading {
+      flex: 1;
+    }
+    .outside_div {
+      padding: 40px;
+    }
+    .buy,
+    .cart {
+      width: 20vw;
+      height: 5vh;
+    }
+    .a_cart,
+    .a_buy {
+      font-size: 15px;
+    }
+    .updatepassword_btn{
+      width: 40vw;
+    }
+    .home_page_div{
+      margin: auto;
+      margin-top: 40%;
+    }
+    .home_product{
+      display: flex;
+      float: right;
+    }
+    .login_singup_home,.login_singup_product{
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .login_singup_home:hover,.login_singup_product:hover{
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .login_div,.signup_div{
+      margin-top: 80px;
+    }
+    .checkou_btnt{
+      align-items: flex-end;
+      width: 30vw;
+    }
+    /* .welcome_username{
+      font-size: 10px;
+    } */
+  }
